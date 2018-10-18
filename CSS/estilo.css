@@ -1,0 +1,149 @@
+body{
+    background-color:ghostwhite;
+}
+img#banner{
+    width: auto;
+    height: auto;
+}
+div#cabecera{
+    width: auto;
+    height: 445px;
+}
+#Barra_navegacion{
+    list-style-type: none;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+li.nav{
+    display: inline;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: "Century Gothic";
+
+}
+li.nav:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px grey;
+}
+h1{
+    text-align: center;
+}
+#Lateral{
+    width:250px;
+    height: 1000px;
+    margin: 0px;
+    border-right: 1px solid #000000;
+    background-color: ghostwhite;
+    float: left;
+}
+ul#menu {
+    list-style-type: none;
+    padding-left: 10px;
+}
+li.item{
+    font-family:Verdana;
+    font-size: 20px;
+    color: black;
+    margin-right: 60px;
+    border-bottom:1px solid #000000;
+}
+li{
+    list-style-type: none;
+}
+li.opciones{
+    margin-left: 20px;
+    font-family: "Century Gothic";
+}
+li.opciones:hover{
+    border:1px solid grey;
+    background-color: white;
+    max-width: 100px;
+    color: black;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+#Contenedor{
+    float: left;
+    width: 1300px;
+    height: 900px;
+    background-color: white;
+    overflow: scroll;
+}
+div.articulos{
+    width: 1200px;
+    height: 12%;
+    border: 1px solid darkgrey;
+    margin: 10px;
+    background-color: ghostwhite;
+    float: left;
+    text-align: center;
+}
+div.articulos:hover{
+    box-shadow: 3px 3px 3px grey;
+}
+h3{
+    color:black;
+}
+p{
+    color:black;
+}
+.imag_1{
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin: 5px;
+    border: 1px solid #000;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: white;
+}
+div#Promocion{
+    width: 278px;
+    height: 900px;
+    float: left;
+}
+div#promo_1{
+    width: 270px;
+    max-height: 500px;
+    margin: 10px 0px 0px 5px;
+    box-shadow: 4px 4px 4px 4px grey;
+}
+div#promo_2{
+    width: 270px;
+    max-height: 500px;
+    margin: 30px 0px 0px 5px;
+    box-shadow: 4px 4px 4px 4px grey;
+    background-color: ghostwhite;
+}
+h1#oferta{
+    background-color: grey;
+    width: 150px;
+    text-shadow: 1px 1px #FFF;
+    border:7px solid black;
+}
+p.Text_promo{
+    font-size: large;
+    font-family:"Arial Black";
+    text-align:start;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1#oferta_2{
+    background-color: grey;
+    width: 195px;
+    text-shadow: 1px 1px #FFF;
+}
+#pie{
+    display:flex;
+    width:100%;
+    height: 20px;
+    text-align:center;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    border:1px solid #000000;
+    color:red;
+}
